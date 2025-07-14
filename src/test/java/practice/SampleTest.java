@@ -15,5 +15,7 @@ public class SampleTest {
 
         WebDriverManager.edgedriver().setup();
         WebDriver driver = new EdgeDriver();
+
+        System.out.println("Hello");
     }
 }
