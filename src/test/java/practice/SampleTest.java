@@ -15,6 +15,11 @@ public class SampleTest {
 
         WebDriverManager.edgedriver().setup();
         WebDriver driver = new EdgeDriver();
+        driver.get("https://gmail.com");
+        String title = driver.getTitle();
+        System.out.println(title);
+
+        driver.quit();
 
         System.out.println("Hello");
     }
